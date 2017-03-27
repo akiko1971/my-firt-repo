@@ -1,0 +1,134 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: yellow;
+
+	margin: 0;
+	padding: 0;
+
+	height: 100%;
+}
+
+
+header, footer {
+	background-color: black;
+
+	overflow: hidden;
+
+	margin: 0;
+	padding: 0;
+
+	width: 100%;
+}
+
+
+footer {
+	position: fixed;
+
+	bottom: 0;
+}
+
+
+h1 {
+	font-family: sans-serif;
+}
+
+
+img {
+	display: block;
+
+	width: 200px;
+	height: 125px;
+}
+
+
+section {
+	margin: 15px;
+
+	width: 50%;
+}
+
+
+a {
+	display: block;
+	float: left;
+
+	font-family: sans-serif;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+
+	border-right: 1px solid white;
+    padding: 15px;
+}
+
+
+a:hover {
+    color: lightgray;
+}
+
+
+.centeredContent * {
+	text-align: center;
+
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+form {
+	background-color: black;
+
+    border: 4px solid black;
+
+    margin: auto;
+
+	width: 25%;
+}
+
+
+form * {
+	display: block;
+
+	width: 100%;
+}
+
+
+.centeredContent form * {
+	text-align: left;
+}
+
+
+label {
+	color: white;
+}
+
+
+input[type="submit"] {
+	width: auto;
+}
+
+
+table, td {
+	background-color: black;
+	color: white;
+
+	border-collapse: collapse;
+
+	border: 5px solid gray;
+}
+
+
+table td a {
+	border: none;
+}
+
+
+#emailAddress {
+	background-color: black;
+
+	border: 5px solid gray;
+
+	margin-bottom: 60px;
+}
